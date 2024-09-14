@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: ;
+    background-color: #50C878;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h4 {
+    color: #2f54eb;
+    margin-top: 10px;
+    
+}
+h2 {
+    color: #2f54eb;
+    margin-top: 10px;
+    
+}
+.name-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 20px 0;
+}
+
+.name-button {
+    background-color: #888;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+    border: 2px solid #2ff;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    padding: 5px;
+}
+
+.details-pic img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.description h3 {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <div class="profile-pic">
+            <img src="kru.jpg" alt="Gambar Profil">
+        </div>
+        <h4>organisasi</h4>
+        <div class="name-list">
+          
+            <button id="sri" class="name-button">sri</button>
+            <button id="yuni" class="name-button">Rika</button>
+            <button id="yani" class="name-button">yani</button>
+            <button id="roh" class="name-button">Rohmah</button>
+        </div>
+        <div class="details">
+            <div class="details-pic">
+                <img src="mantan1.png" alt="Gambar Detail">
+            </div>
+            <div class="description">
+                <h3>Details</h3>
+                <ul>
+                    <li>✓Galak</li>
+                    <li>✓pinter masak</li>
+                    <li>✓angel di apusi</li>
+                </ul>
+            </div>
+        </div>
+                <div class="details">
+            <div class="details-pic">
+                <img src="mantan2.png" alt="Gambar Detail">
+            </div>
+            <div class="description">
+                <h3>Details</h3>
+                <ul>
+                    <li>✓cerewet</li>
+                    <li>✓ora bisa masak</li>
+                    <li>✓angel di apusi</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
